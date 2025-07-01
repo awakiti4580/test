@@ -1,10 +1,14 @@
 body{
+  display: block;
   width: 100%;
-  color: #000111;
 }
 header{
-  background-color: #000000;
-  color:#FFFFFF;
+  background-color: azure;
   width: 100%;
   height: 25%;
+}
+.textarea{
+  width: 100%;
+  background-color: blue;
+  color: white;
 }
