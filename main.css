@@ -2,10 +2,11 @@ body{
   display: block;
   width: 94%;
   height: 100%;
+  text-align: center;
 }
 header{
+  text-align: center;
   background-color:black
-  height: 25%;
 }
 .textarea{
   display: block;
@@ -13,6 +14,7 @@ header{
   background-color: blue;
   color: white;
   margin: 1px,1px;
+  text-align: center;
 }
 .menu{
   display: block;
