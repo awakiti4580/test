@@ -1,15 +1,18 @@
 body{
   display: block;
-  width: 90%;
+  width: 94%;
+  height: 100%;
 }
 header{
   background-color:black
   height: 25%;
 }
 .textarea{
-  width: 95%;
+  display: block;
+  width: 96%;
   background-color: blue;
   color: white;
+  margin: 1px,1px;
 }
 .menu{
   display: block;
