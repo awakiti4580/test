@@ -8,6 +8,7 @@ body {
 .top {
   width: 96%;
   height: 25%;
+  background-color: black;
 }
 
 .textarea {
@@ -36,8 +37,9 @@ h1 {
 }
 
 .kamon {
-  float: left;
   display: inline;
+  display: block;
+  float: left;
   width: 15%;
   height: 15%;
 }
