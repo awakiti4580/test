@@ -5,6 +5,7 @@ body {
 /* ヘッダー */
 header{
   height: 30%; 
+  width: 95%;
   background-color: black;
  }
 
@@ -17,7 +18,7 @@ header{
 .menu {
   display: block;
   text-align: left;
-  width: 80%;
+  width: 75%;
   height: 15%;
   float: right;
   background-color: rgb(147, 147, 190);
@@ -31,7 +32,7 @@ header{
   }
 
 header .top{
-  width: 80%;
+  width: 75%;
   height: 5%;
   color: whitesmoke;
   float: right;
