@@ -38,6 +38,10 @@ header .top{
   text-align: right;
   text-size-adjust:initial;
 }
+h1{
+  margin: 0px 0px;
+  padding: 0px 0px;
+}
 /* メイン */
 .textarea {
   display: block;
