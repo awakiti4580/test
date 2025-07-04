@@ -9,7 +9,7 @@ header{
   background-color: black;
  }
 
- header img {
+ .kamon img{
   display: block;
    width: 20%;
   height: 20%;
