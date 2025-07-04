@@ -9,7 +9,7 @@ header{
   background-color: black;
  }
 
- header img {
+ .top img {
   display: block;
    width: 20%;
   height: 20%;
@@ -28,13 +28,14 @@ header{
 header .top{
   width: 75%;
   height: 5%;
-  color: whitesmoke;
+  color: rgb(204, 37, 37);
   float: right;
   text-align: right;
   margin: 0px 0px;
   padding: 0px 0px;
 }
 h1{
+  background-color: blueviolet;
   margin: 0px 0px;
   padding: 0px 0px;
 }
