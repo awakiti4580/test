@@ -4,13 +4,16 @@ body {
   height: 100%;
   text-align: center;
 }
-
-.top {
+header{
+  width: 96%;
+  height: 25%;
+}
+header .top {
   width: 96%;
   height: 25%;
   background-color: black;
 }
-.top img{
+header .top img{
   width: 15%;
   height: 15%;
   float: left;
