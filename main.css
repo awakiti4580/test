@@ -38,6 +38,7 @@ h1 {
   color: whitesmoke;
   float: right;
   text-align: right;
+  text-size-adjust:initial;
 }
 /* メイン */
 .textarea {
