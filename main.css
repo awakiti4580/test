@@ -4,20 +4,23 @@ body {
   height: 100%;
   text-align: center;
 }
-header{
+
+header {
   width: 96%;
   height: 25%;
 }
-header .top {
+
+header.top {
   width: 96%;
   height: 25%;
   background-color: black;
 }
-header .top img{
+.top img {
   width: 15%;
   height: 15%;
   float: left;
 }
+
 .textarea {
   display: block;
   width: 96%;
@@ -28,7 +31,6 @@ header .top img{
 }
 
 .menu {
-  display: inline;
   display: block;
   border: 2px;
   border-color: rebeccapurple;
