@@ -4,7 +4,6 @@ body {
 }
 /* ヘッダー */
 header{
-  display: block;
   height: 30%; 
   background-color: black;
  }
