@@ -8,6 +8,7 @@ body {
 header {
   width: 96%;
   height: 30%;
+  margin: 1px 1px;
 }
 
 header.top {
