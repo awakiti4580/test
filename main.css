@@ -1,14 +1,16 @@
-body{
+body {
   display: block;
   width: 94%;
   height: 100%;
   text-align: center;
 }
-.top{
+
+.top {
   width: 96%;
   height: 25%;
 }
-.textarea{
+
+.textarea {
   display: block;
   width: 96%;
   background-color: blue;
@@ -17,7 +19,9 @@ body{
   padding: 1px 1px;
   text-align: center;
 }
-.menu{
+
+.menu {
+  display: inline;
   display: block;
   border: 2px;
   border-color: rebeccapurple;
@@ -25,12 +29,15 @@ body{
   float: right;
   background-color: blue;
 }
-h1{
+
+h1 {
   color: whitesmoke;
   float: right;
 }
-.kamon{
+
+.kamon {
   float: left;
+  display: inline;
   width: 15%;
   height: 15%;
 }
