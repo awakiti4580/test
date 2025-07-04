@@ -7,16 +7,19 @@ body {
 
 header {
   width: 96%;
-  height: 25%;
+  height: 30%;
 }
 
 header.top {
-  width: 96%;
+  width: 94%;
   height: 25%;
   background-color: black;
   float: right;
+  padding: 2% 2%;
+  margin: 1px 1px;
 }
 .top img {
+  display: inline;
   width: 15%;
   height: 15%;
   float: left;
