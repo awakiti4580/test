@@ -32,7 +32,7 @@ header{
   text-align: left;
   }
 
-h1 {
+header .top{
   width: 80%;
   height: 4%;
   color: whitesmoke;
