@@ -4,9 +4,9 @@ body{
   height: 100%;
   text-align: center;
 }
-header{
-  text-align: center;
-  background-color:black
+.top{
+  width: 96%;
+  height: 25%;
 }
 .textarea{
   display: block;
