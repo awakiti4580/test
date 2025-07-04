@@ -36,9 +36,7 @@ h1 {
   float: right;
 }
 
-.kamon {
-  display: inline;
-  display: block;
+.kamon img{
   float: left;
   width: 15%;
   height: 15%;
