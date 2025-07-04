@@ -14,6 +14,7 @@ header.top {
   width: 96%;
   height: 25%;
   background-color: black;
+  float: right;
 }
 .top img {
   width: 15%;
@@ -26,6 +27,7 @@ header.top {
   width: 96%;
   background-color: blue;
   color: white;
+  text-align: left;
   margin: 1px 1px;
   padding: 1px 1px;
 }
@@ -36,7 +38,7 @@ header.top {
   border-color: rebeccapurple;
   width: 80%;
   float: right;
-  background-color: blue;
+  background-color: rgb(147, 147, 190);
 }
 
 h1 {
