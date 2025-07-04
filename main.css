@@ -13,7 +13,8 @@ body{
   width: 96%;
   background-color: blue;
   color: white;
-  margin: 1px,1px;
+  margin: 1px 1px;
+  padding: 1px 1px;
   text-align: center;
 }
 .menu{
@@ -30,4 +31,6 @@ h1{
 }
 .kamon{
   float: left;
+  width: 15%;
+  height: 15%;
 }
