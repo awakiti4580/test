@@ -24,6 +24,7 @@ header.top {
   width: 15%;
   height: 15%;
   float: left;
+  margin-bottom: 1%;
 }
 
 .menu {
@@ -31,15 +32,17 @@ header.top {
   border: 2px;
   border-color: rebeccapurple;
   width: 85%;
+  height: 20%;
   float: right;
   background-color: rgb(147, 147, 190);
+  margin-bottom: 1%;
 }
 
 .news {
   display: block;
-  height: 5%;
+  height: 4%;
   text-align: left;
-  margin: 1px 1px;
+  margin-bottom: 1px;
 }
 
 .textarea {
