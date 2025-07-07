@@ -28,8 +28,7 @@ h1 {
   background-color: azure;
   float: right;
   display: flex;
-  padding: 0%;
-}
+ }
 .menu li{
   list-style: none;
   margin-right: 5%;
