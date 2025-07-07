@@ -1,35 +1,41 @@
-body{
+body {
   width: 100%;
   height: 100%;
   margin: 0%;
   background-color: rgb(35, 35, 114);
 }
+
 /* へっだー */
-header{
+header {
   height: 30%;
   background-color: azure;
   margin: auto;
 }
-h1{
+
+h1 {
   width: 70%;
   height: 5%;
-  color:black;
+  color: black;
   float: right;
-  text-size-adjust: 5%;
+  margin: 0 0;
   padding-right: 5%;
 }
-.menu{
+
+.menu {
   width: 75%;
   height: 15%;
   background-color: azure;
   text-size-adjust: 10%;
+  float: right;
 }
-.top img{
+
+.top img {
   width: 15%;
   height: 15%;
 }
+
 /* めいん */
-.textarea{
+.textarea {
   height: 40%;
   background-color: blue;
   text-align: left;
