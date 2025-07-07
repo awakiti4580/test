@@ -15,10 +15,12 @@ header {
 h1 {
   width: 70%;
   height: 5%;
-  color: black;
+  text-align: right;
+  color: white;
+  background-color: black;
   float: right;
-  margin: 0 0;
-  padding-right: 5%;
+  margin: 0% 0% 5% 0%;
+padding: 0%;
 }
 
 .menu {
@@ -27,7 +29,10 @@ h1 {
   background-color: azure;
   float: right;
 }
-
+li{
+  display: inline-block;
+  list-style: none;
+}
 .top img {
   width: 15%;
   height: 15%;
