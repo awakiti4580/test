@@ -27,6 +27,9 @@ h1 {
   height: 10%;
   background-color: azure;
   float: right;
+  display: inline;
+ }
+ .menu ul{
   display: flex;
  }
 .menu li{
