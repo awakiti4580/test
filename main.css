@@ -30,6 +30,8 @@ h1 span{
   height: 10%;
   background-color: azure;
   float: right;
+  display: block;
+  padding: 0 0;
    }
  .menu ul{
   display: flex;
