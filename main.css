@@ -14,15 +14,15 @@ header {
 
 h1 {
   width: 85%;
-  height: 5%;
+  height: 20%;
   color: black;
   background-color: rgba(25, 23, 146, 0.37);
-  
+  float: right;
 }
 h1 span{
   font-style: italic;
   color: white;
-  float: right;
+
   padding: 0% 2% 0% 0%;
 }
 .menu {
