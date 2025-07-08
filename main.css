@@ -19,9 +19,6 @@ h1 {
   color: white;
   background-color: black;
   float: right;
-  display: inline;
-  margin-bottom: 0%;
-  padding-bottom: 0%;
 }
 
 .menu {
@@ -29,9 +26,7 @@ h1 {
   height: 10%;
   background-color: azure;
   float: right;
-  display: inline;
-  padding-top: 0%;
- }
+   }
  .menu ul{
   display: flex;
  }
