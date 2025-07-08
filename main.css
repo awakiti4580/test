@@ -48,6 +48,7 @@ h1 span{
 
 /* めいん */
 .textarea {
+  display: block;
   height: 40%;
   background-color: blue;
   text-align: left;
