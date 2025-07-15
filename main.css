@@ -9,69 +9,88 @@ body {
 /* へっだー */
 header {
   background-color: aqua;
-  height: 30%;
   width: 100%;
+  height: auto;
   padding: 0% 0%;
   display: inline-block;
-
 }
 
 .menu {
   width: 100%;
-  height: 10%;
-  float: right;
+  height: 30h;
+float: right;
   display: block;
   background-color: azure;
 }
-
-.menu ul {
-  float: right;
-  width: 80%;
-  height: 5%;
-}
-
-.menu li {
-  width: 10%;
-  height: 5%;
-  display: inline-block;
-  list-style: none;
-  background-color: cornflowerblue;
-  padding: 1%;
-  text-align: center;
-}
-
+/* たいとる */
 h1 {
-  display: inline-block;
-  height: 10%;
   width: 100%;
   background-color: silver;
   text-align: right;
+  font-size: 200%;
+  margin: 1% 0% 1% 0%;
 }
-
 h1 span {
   color: white;
   font-style: italic;
   margin-right: 10%;
 }
+/* めにゅー */
+.menu ul{
+  display: flex;
 
+}
+.menu li{
+display: table;
+width: 20%;
+height: 20vh;
+border-radius: 50%;
+line-height: 20vh;
+text-align: center;
+margin-top: 5vh;
+font-size: large;
+}
+.menu1{
+  background-color: purple;
+}
+.menu2{
+  background-color: royalblue;
+}
+.menu3{
+  background-color: green;
+}
+.menu4{
+  background-color: yellow;
+}
+.menu5{
+  background-color: orange;
+}
+.menu6{
+  background-color: plum;
+}
+/* かもん */
 .menu img {
-  padding: 1% 1%;
-  width: 10%;
-  height: 10%;
+  width: 15%;
+  height: 15%;
   display: block;
   float: left;
+margin-top: 3vh;
+  margin-left: 3vw;
 }
+
 .textarea1{
   height: 40%;
   width: 100%;
   background-color: antiquewhite;
 display: block;
   padding-top: 1%;
+  overflow: auto;
 }
 .textarea2{
   height: 40%;
-  width: 99%;
+  width: 100%;
  background-color: aquamarine;
 display: block;
 padding: 1%;
+overflow: auto;
 }
