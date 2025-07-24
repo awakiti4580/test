@@ -1,0 +1,42 @@
+#contentsarea{
+  height: 360vh;
+  width: 100%;
+  color:black;
+
+}
+#prof{
+  height: 10%;
+  width: 100%;
+  background-color: azure;
+}
+#con1{
+  height: 10%;
+  width: 100%;
+  background-color: brown;
+}
+#con2{
+  height: 10%;
+  width: 100%;
+  background-color: #0d882b;
+}
+#con3{
+  height: 10%;
+  width: 100%;
+  background-color: hsl(323, 84%, 51%);
+}
+#con4{
+  height: 10%;
+  width: 100%;
+  background-color: hsl(295, 83%, 29%);
+}
+#con5{
+  height: 10%;
+  width: 100%;
+  background-color: hsl(216, 84%, 19%);
+}
+#con1 iframe{
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+}
+

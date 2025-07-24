@@ -1,0 +1,97 @@
+@charset "utf-8";
+body{
+width: 100%;
+  height: 100vh;
+  background-color: royalblue;
+}
+header{
+  width: 100%;
+  height: 20vh;
+   padding: 0;
+  margin: 0;  
+position: relative;
+
+}
+
+h1{
+  float: right;
+  width: 85%;
+  height: 10vh;
+  line-height: 10vh;
+  text-align: right;
+  padding-right: 4%;
+  /* background-color: aquamarine; */
+margin: 0;
+text-shadow:
+    -3px 3px 0 black,
+    3px 0 30px hsl(0, 0%, 100%),
+    3px -3px 0 #000;
+color: whitesmoke;
+font-size: 250%;
+}
+header img{
+  width: 10%;
+  height: 10vh;
+  aspect-ratio: 1/1;
+  margin-left: 1%;
+  background-color: white;
+border-radius: 50%;
+  float: left; 
+}
+span{
+  font-style: italic;
+  margin-left: 1%;
+  font-size: 70%;
+}
+header ul{
+  width: 100%;
+  height: 5vh;
+
+margin: auto;
+padding-left: 5%;
+}
+header li{
+  width: 15%;
+  list-style:none;
+  line-height: 5vh;
+  font-size: large;
+  text-align: center;
+  display: inline-block;
+  margin-top: 5vh;
+}
+
+.menu1{
+  background-color: blueviolet;
+}
+.menu2{
+  background-color: blue;
+}
+.menu3{
+  background-color: mediumseagreen;
+}
+.menu4{
+  background-color: yellow;
+}
+.menu5{
+  background-color: orange;
+}
+.menu6{
+  background-color: pink;
+}
+#contaner{
+  width: 100%;
+  height: 60vh;
+  overflow: hidden;
+  margin: 0;
+ 
+}
+footer{
+  text-align: right;
+  font-size: 200%;
+  width: 100%;
+  height: 20vh;
+  margin: 0;
+}
+footer span{
+  padding-right: 10%;
+}
