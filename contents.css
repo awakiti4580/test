@@ -1,5 +1,5 @@
 @charset "utf-8";
-#profile{
+ #profile{
   background-color:#8a2be2;
   color: white;
 }
@@ -10,6 +10,19 @@ background-color: #0000ff;
 background-color: #008000;
 }
 #contents3{
-background-color: #ffff00;
+background-color: orange;
 }
 
+ .menu1{
+  background-color:#8a2be2;
+  color: white;
+}
+.menu2{
+background-color: #0000ff;
+}
+.menu3{
+background-color: #008000;
+}
+.menu4{
+background-color: orange;
+}
