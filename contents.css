@@ -1,32 +1,26 @@
 @charset "utf-8";
 
-#profile {
+#home {
    display: inline-block;
   height: 100vh;
   font-size: 3vw;
   font-weight: bolder;
-/* 背景 */
-/* background: linear-gradient(to top, #4169e1 30%, #8a2be2 75%); */
 }
 
 #crafts {
  overflow: scroll;
   display: inline-block;
   height: 100vh;
-  /* 背景 */
-/* background: linear-gradient(to top, #4169e1 30%, #0000ff 75%); */
 }
 
-#contents2 {
-  /* 背景 */
-/* background: linear-gradient(to top, #4169e1 30%, #008000 75%); */
+#cooking {
   display: inline-block;
   height: 100vh;
 }
 
-#contents3 {
-/* background: linear-gradient(to top, #4169e1 30%, orange 75%); */
+#profile {
   display: inline-block;
   height: 100vh;
+    font-size: 2vw;
+  font-weight: bolder;
 }
-
