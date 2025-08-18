@@ -5,26 +5,26 @@ html,body{
 body {
 background-color: #4169e1;
   margin: 0;
-  min-width: 100%;
 }
 header{
   height: 20vh;
   width: 100vw;
   /* background-color: aqua; */
 margin: 0;
-
 }
 h1{
+  font-family:fantasy;
+  font-style: oblique;
 height: 10vh;
-  width: 80vw;
+  width: 70vw;
   float: right;
  /* background-color:#3adfdf ; */
  margin: 0;
 line-height: 10vh;
 text-align: right;
 padding-right: 5%;
-font-size: 200%;
-
+font-size: clamp(20px,5vw,65px);
+text-shadow: 5px 0 30px whitesmoke;
 }
 h1 span{
   color: whitesmoke;
@@ -33,13 +33,18 @@ h1 span{
   margin-left: 2%;
   margin-bottom: 0;
 }
-header img{
-  height: 18vh;
-  width: 15vw;
+.awa{
+display: block;
+height: 10vh;
+width: 8vw;
+object-fit:fill;
+margin: 0;
+float: left;
   background-color: white;
   border-radius: 50%;
-  float: left;
-  margin: 2vh auto 0vh;
+}
+a{
+  text-decoration: none;
 }
 header ul{
   height: 10vh;
@@ -49,14 +54,16 @@ margin: 0;
 float: right;
 text-align: center;
 }
+
 header li{
 display: inline-block;
   width: 18vw;
   background-color: aquamarine;
   list-style: none;
   line-height: 10vh;
-  font-size: 83%;
+  font-size: clamp(12px,3vw,40px);
   font-weight: bolder;
+  border-radius: 30% 30% 0% 0%;
 }
 .clear{
   clear: left;
@@ -65,12 +72,14 @@ footer{
   height: 10vh;
   width: 95vw;
   padding-left: 5%;
+  font-size: 150%;
   /* background-color: blanchedalmond; */
 }
 .contaner{
 height: 70vh;
 width: 100vw;
 overflow: hidden;
+
 }
 table{
   height: 400vh;

@@ -1,28 +1,48 @@
 @charset "utf-8";
- #profile{
-  background-color:#8a2be2;
-  color: white;
-}
-#contents1{
-background-color: #0000ff;
-}
-#contents2{
-background-color: #008000;
-}
-#contents3{
-background-color: orange;
+
+#profile {
+   display: inline-block;
+  height: 100vh;
+  font-size: 3vw;
+  font-weight: bolder;
+/* 背景 */
+/* background: linear-gradient(to top, #4169e1 30%, #8a2be2 75%); */
 }
 
- .menu1{
-  background-color:#8a2be2;
+#crafts {
+ overflow: scroll;
+  display: inline-block;
+  height: 100vh;
+  /* 背景 */
+/* background: linear-gradient(to top, #4169e1 30%, #0000ff 75%); */
+}
+
+#contents2 {
+  /* 背景 */
+/* background: linear-gradient(to top, #4169e1 30%, #008000 75%); */
+  display: inline-block;
+  height: 100vh;
+}
+
+#contents3 {
+/* background: linear-gradient(to top, #4169e1 30%, orange 75%); */
+  display: inline-block;
+  height: 100vh;
+}
+
+.menu1 {
+  background-color: #8a2be2;
   color: white;
 }
-.menu2{
-background-color: #0000ff;
+
+.menu2 {
+  background-color: #0000ff;
 }
-.menu3{
-background-color: #008000;
+
+.menu3 {
+  background-color: #008000;
 }
-.menu4{
-background-color: orange;
+
+.menu4 {
+  background-color: orange;
 }
