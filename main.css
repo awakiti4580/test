@@ -25,6 +25,12 @@ text-align: right;
 padding-right: 5%;
 font-size: clamp(20px,5vw,65px);
 text-shadow: 5px 0 30px whitesmoke;
+animation: slideinLeft 1s ease-in;
+}
+  @keyframes slideinLeft {
+  0%{ 
+    transform: translateX(-100px);
+  }
 }
 h1 span{
   color: whitesmoke;
@@ -33,10 +39,10 @@ h1 span{
   margin-left: 2%;
   margin-bottom: 0;
 }
-.awa{
+header img{
 display: block;
 height: 10vh;
-width: 8vw;
+width: 10vw;
 object-fit:fill;
 margin: 0;
 float: left;
@@ -54,10 +60,9 @@ margin: 0;
 float: right;
 text-align: center;
 }
-
 header li{
 display: inline-block;
-  width: 18vw;
+  width: 15vw;
   background-color: aquamarine;
   list-style: none;
   line-height: 10vh;
