@@ -1,26 +1,132 @@
 @charset "utf-8";
 
+/* ほーむ */
 #home {
-   display: inline-block;
-  height: 100vh;
-  font-size: 3vw;
-  font-weight: bolder;
-}
-
-#crafts {
- overflow: scroll;
   display: inline-block;
   height: 100vh;
 }
 
-#cooking {
-  display: inline-block;
-  height: 100vh;
+#home img {
+  margin-right: 10vw;
+  margin-top: 5vh;
+  float: right;
+  /* display: flex; */
+  max-width: 70vw;
+  height: auto;
+  /* border-radius: 50%; */
+  /* aspect-ratio: 1 / 1; */
+  padding: 1vw;
+  filter:
+    drop-shadow(0 0 20px #eef089da) drop-shadow(0 0 30px hsla(150, 77%, 74%, 0.855)) drop-shadow(0 0 40px hsla(241, 87%, 40%, 0.855));
 }
+#home h2 {
+  font-size: clamp(20px, 5vh, 40px);
+  margin: 0;
+  display: inline-block;
+  width: 100vw;
+  height: 3vw;
+  animation: slideintop 1s ease-in;
+  font-style: italic;
+  /* background-color: aqua; */
+}
+  @keyframes slideintop {
+  0%{ 
+    transform: translatey(-50px);
+  }
+}
+  /* ほーむおわり */
+  /* ぷろふぃーる */
 
-#profile {
-  display: inline-block;
-  height: 100vh;
-    font-size: 2vw;
-  font-weight: bolder;
-}
+  #profile p {
+    font-size: clamp(12px, 3vw, 30px);
+    margin: 0;
+    width: 100vw;
+    height: 20vh;
+    display: block;
+    /* background-color: beige; */
+    line-height: 35vh;
+  }
+
+  .prf {
+    display: inline-block;
+    width: 100vw;
+    height: 30vh;
+    font-size: clamp(12px, 4vw, 35px);
+    /* background-color: rgb(204, 204, 16); */
+    margin: 0;
+  }
+
+  .prf2 {
+    display: flex;
+    width: 100vw;
+    height: 15vh;
+    margin: 0;
+    list-style: none;
+    /* background-color: aqua; */
+  }
+
+  .suzuriimg {
+    max-width: 5vw;
+    height: auto;
+    margin: 0;
+  }
+
+  .boothimg {
+    max-width: 5vw;
+    height: auto;
+    /* margin-left: 1vw; */
+  }
+
+  .prf2 li {
+    font-size: 80%;
+    display: inline-block;
+    width: 20vw;
+    height: 10vh;
+    /* background-color: aqua; */
+    line-height: 10vh;
+    margin: 0;
+  }
+
+  .prf2 li a {
+    float: left;
+    margin: 0;
+  }
+
+  /* ぷろふぃーるおわり */
+
+
+  #content2 {
+    overflow: scroll;
+    display: inline-block;
+    height: 100vh;
+
+  }
+
+  #cooking {
+    display: inline-block;
+    height: 100vh;
+
+  }
+
+  #photo {
+    display: inline-block;
+  }
+
+  .photomain {
+    display: inline-block;
+    width: 95VW;
+    height: 100vh;
+    overflow-x: scroll;
+    margin: 0;
+    margin-left: 2vw;
+  }
+
+  .photomain li {
+    list-style: none;
+  }
+
+  .photomain img {
+    max-width: 100vw;
+    height: auto;
+  }
+
